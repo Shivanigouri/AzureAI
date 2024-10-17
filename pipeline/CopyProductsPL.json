@@ -1,0 +1,17 @@
+{
+	"name": "CopyProductsPL",
+	"properties": {
+		"activities": [
+			{
+				"name": "WaitCopy",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"annotations": []
+	}
+}
