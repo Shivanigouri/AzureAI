@@ -64,22 +64,6 @@
 				]
 			},
 			{
-				"name": "Wait1",
-				"type": "Wait",
-				"dependsOn": [
-					{
-						"activity": "WaitCopy",
-						"dependencyConditions": [
-							"Failed"
-						]
-					}
-				],
-				"userProperties": [],
-				"typeProperties": {
-					"waitTimeInSeconds": 1
-				}
-			},
-			{
 				"name": "UpdateDateSP",
 				"type": "SqlServerStoredProcedure",
 				"dependsOn": [
