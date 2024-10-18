@@ -64,7 +64,7 @@
 				]
 			},
 			{
-				"name": "UpdateDateSP",
+				"name": "UpdateDateSP1",
 				"type": "SqlServerStoredProcedure",
 				"dependsOn": [
 					{
@@ -83,7 +83,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"storedProcedureName": "[dbo].[Updateproducts]"
+					"storedProcedureName": "[dbo].[Updateproducts2]"
 				},
 				"linkedServiceName": {
 					"referenceName": "AdvWorksDb1",
